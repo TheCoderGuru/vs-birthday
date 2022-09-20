@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.title {
+    font-family: 'Lobster';
+    margin-block: 1em;
+}
+
+.description {
+    display: none;
+}
+
+.description-shown {
+    transition: 300ms display ease;
+    display: block;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Sniglet';
+    margin-inline: 2em;
+    margin-block-end: 2em;
+}
+
+.container {
+    margin-block-start: 2em;
+    text-align: center;
+}
+
+span{
+    color: purple;
+}
+
+footer{
+    margin-block: 2em;
+    font-family: 'Sniglet'
+}
